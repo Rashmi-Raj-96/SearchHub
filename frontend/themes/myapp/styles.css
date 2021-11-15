@@ -16,3 +16,124 @@
       --lumo-line-height-xs: 1.1;
 
     }
+
+.header-font-size {
+	  font-size: 60px;
+	  font-family: Cursive;
+	  font-style: oblique;
+	  margin-top: 100px;
+	  color: white;
+	}
+
+.bg-image {
+      background-image: url("EricssonHQ.jpg");
+      max-width: 1500px;
+      max-height: 700px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.logo-image {
+     border: 2px solid #ddd;
+     border-radius: 2px;
+     padding: 1px;
+     width: 180px;
+     margin-left: 1200px;
+     border-color: black;
+}
+
+.box-color {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+
+}
+
+.button-color {
+  border: 2px solid #000000;
+}
+
+.glow {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-bottom: 80px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.about-eric{
+     border: 2px solid #ddd;
+     border-radius: 2px;
+     padding: 1px;
+     width: 80px;
+     height: 80px;
+     margin-left: 550px;
+     border-color: white;
+}
+
+.about-header {
+   margin-bottom: 150px;
+   font-style: bold;
+   font-size: 24px;
+   margin-left: 445px;
+   text-decoration-line: underline;
+}
+
+.h1 {
+   font-size: 45px;
+   color: #FF9933;
+   font-style: oblique;
+}
+
+.h2 {
+  font-size: 45px;
+  color: #000080;
+  font-style: oblique;
+}
+
+.h3 {
+  font-size: 45px;
+  margin-bottom: 160px;
+  color: #138808;
+  font-style: oblique;
+}
+
+.about-searchimage {
+     width: 800px;
+     height:500px;
+     margin-bottom:100px;
+}
+
+.about-personimage {
+     width: 800px;
+     height:500px;
+     margin-bottom:100px;
+}
+
+.about-addToCartimage {
+     width: 800px;
+     height:500px;
+     margin-bottom:100px;
+}
+
+.gotosearchpage {
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  width:175px;
+}
+
+.about-page-bgcolor {
+    background-color: #d5e1df;
+}
